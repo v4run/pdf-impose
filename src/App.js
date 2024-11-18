@@ -61,9 +61,11 @@ function App() {
 
   useEffect(() => {
     regeneratePDF();
+    // eslint-disable-next-line
   }, [pagesPerSheet]);
   useEffect(() => {
     regeneratePDF();
+    // eslint-disable-next-line
   }, [pdfFile]);
 
   async function updatePagesPerSheet(e) {
