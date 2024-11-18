@@ -161,6 +161,14 @@ function App() {
                 onChange={selectFile}
               />
             </label>
+            <div className="flex items-center justify-center p-4">
+              <a
+                className="w-full h-full text-black bg-white rounded"
+                href={src}
+              >
+                Download
+              </a>
+            </div>
             <div className="flex items-center justify-center">
               <div className="flex w-full flex-auto text-white text-xs">
                 Choose pages per sheet
